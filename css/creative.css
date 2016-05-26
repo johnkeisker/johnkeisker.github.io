@@ -242,7 +242,7 @@ header .header-content .header-content-inner p {
         margin-right: auto;
         margin-left: auto;
         max-width: 80%;
-        font-size: 18px;
+        font-size: 30px;
     }
 }
 
@@ -480,4 +480,18 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #222;
+}
+#profilepic {
+  width: 250px;
+  height: 300px;
+  border-radius: 50px;
+  border: 8px solid black;
+}
+.mycontactinfo {
+  display: flex;
+  position: relative;
+
+}
+.mycontactinfo p {
+  color: #f05f40;
 }
