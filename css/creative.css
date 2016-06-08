@@ -44,15 +44,20 @@ h5,
 h6 {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
+h2 {
+  text-shadow: 3px solid black;
+}
 
 p {
     margin-bottom: 20px;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.5;
 }
 
 .bg-primary {
-    background-color: #f05f40;
+    background-color: #339966;
+    border-top: 3px solid #006600;
+    border-bottom: 2px solid #006600;
 }
 
 .bg-dark {
@@ -65,7 +70,9 @@ p {
 }
 
 section {
-    padding: 100px 0;
+    padding: 60px 0;
+    background-color: lightgray;
+    border-bottom: 2px solid gray;
 }
 
 aside {
@@ -153,7 +160,8 @@ aside {
 
     .navbar-default.affix {
         border-color: rgba(34,34,34,.05);
-        background-color: #fff;
+        background-color: lightgray;
+        border-width: medium;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand {
@@ -281,7 +289,7 @@ header .header-content .header-content-inner p {
     text-align: center;
     color: #fff;
     opacity: 0;
-    background: rgba(240,95,64,.9);
+    background: rgba(51, 153, 102, 1);
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -485,7 +493,8 @@ body {
   width: 250px;
   height: 300px;
   border-radius: 50px;
-  border: 8px solid black;
+  border: 3px solid #006600;
+  /*box-shadow: 3px 3px 3px rgba(255,255,255,.7);*/
 }
 .mycontactinfo {
   display: flex;
